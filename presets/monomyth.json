@@ -1,0 +1,81 @@
+{
+  "name": "monomyth",
+  "style": {
+    "background": [
+      0,
+      0,
+      0,
+      160
+    ],
+    "font_color": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "font_size_ratio": 0.3,
+    "font_path": null
+  },
+  "fps": 24,
+  "tokens": {
+    "shot": "ep01_sh010",
+    "note": ""
+  },
+  "top": {
+    "height_ratio": 0.048828125
+  },
+  "bottom": {
+    "height_ratio": 0.048828125
+  },
+  "slots": {
+    "top-left": {
+      "kind": "text",
+      "alignment": "left",
+      "margin": 16,
+      "lines": [
+        "{shot}",
+        ""
+      ]
+    },
+    "top-middle": {
+      "kind": "text",
+      "alignment": "center",
+      "margin": 8,
+      "lines": []
+    },
+    "top-right": {
+      "kind": "text",
+      "alignment": "right",
+      "margin": 16,
+      "lines": [
+        "apettit",
+        ""
+      ]
+    },
+    "bottom-left": {
+      "kind": "text",
+      "alignment": "left",
+      "margin": 16,
+      "lines": [
+        "{date}",
+        "{time}",
+        ""
+      ]
+    },
+    "bottom-middle": {
+      "kind": "logo",
+      "alignment": "center",
+      "margin": 0,
+      "image": "D:/SynologyDrive-Personal/work/RandyBishop/projects/monomyth/global/monomyth.png"
+    },
+    "bottom-right": {
+      "kind": "text",
+      "alignment": "right",
+      "margin": 16,
+      "lines": [
+        "{frame}",
+        "{timecode}"
+      ]
+    }
+  }
+}
